@@ -1,4 +1,4 @@
-from my_module.py import add
+from tests.my_module import add
 
 def test_add_positive_numbers(a, b):
 	assert add(2, 3) == 5
