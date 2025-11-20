@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Running tests
       - pytest tests/
-      - echo Build steps here (e.g., build Docker image)
+      # - echo Build steps here (e.g., build Docker image)
       # Example: docker build -t myapp .
 artifacts:
   files:
