@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies
+      - pip install -r requirements.txt
+  build:
+    commands:
+      - echo Running tests
+      - pytest tests/
+      - echo Build steps here (e.g., build Docker image)
+      # Example: docker build -t myapp .
+artifacts:
+  files:
+    - '**/*'
